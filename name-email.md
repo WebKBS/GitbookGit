@@ -26,7 +26,7 @@ git config user.name
 git config --global user.email example@gamil.com
 ```
 
-이메일을 설정한다.
+example@gmail.com 대신 본인의 이메일을 입력하면된다.
 
 {% hint style="info" %}
 이메일은 차후 깃허브에 로그인할때 사용하는 이메일을 설정하는 것을 추천한다.
