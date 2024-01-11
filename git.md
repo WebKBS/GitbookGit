@@ -48,9 +48,15 @@ git add . 의 .(점)을 찍는것은 변경사항이 있는 모든 파일을 의
 ```bash
 git add example.txt
 ```
+
+만약 여러 파일을 이어서 add하고 싶다면
+
+```bash
+git add example1.txt example2.txt
+```
+
+위 처럼 띄어쓰기 한칸으로 다음 파일 이름을 입력하면 된다.
 {% endhint %}
-
-
 
 
 
