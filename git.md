@@ -40,6 +40,18 @@ git add .
 다시 git status를 하면 "Changes to be committed"라는 메시지가 나타나면서 Staging Area에 있는 변경 사항목록이 나타난다.
 {% endhint %}
 
+{% hint style="warning" %}
+git add . 의 .(점)을 찍는것은 변경사항이 있는 모든 파일을 의미한다. (변경사항이 있는 모든 파일을 staging함)
+
+만약 개별 파일을 staging하려면 아래와 같이 개별 파일이름을 사용하면된다.
+
+```bash
+git add example.txt
+```
+{% endhint %}
+
+
+
 
 
 ## **변경 내용을 확정하고 커밋:**
